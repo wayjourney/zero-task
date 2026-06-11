@@ -1,0 +1,52 @@
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/better_html-2.2.0/ext/better_html_ext
+/Users/apple/.rbenv/versions/4.0.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/better_html-2.2.0/ext/better_html_ext
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-41626-dajrk1 sitelibdir\=./.gem.20260612-41626-dajrk1 clean
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/better_html-2.2.0/ext/better_html_ext
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-41626-dajrk1 sitelibdir\=./.gem.20260612-41626-dajrk1
+compiling html_tokenizer.c
+compiling parser.c
+compiling tokenizer.c
+parser.c:460:45: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+  460 |       INT2NUM(ref.line_number), INT2NUM(ref.column_number));
+      |                                 ~~~~~~~ ~~~~^~~~~~~~~~~~~
+parser.c:460:19: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+  460 |       INT2NUM(ref.line_number), INT2NUM(ref.column_number));
+      |       ~~~~~~~ ~~~~^~~~~~~~~~~
+parser.c:459:51: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+  459 |       INT2NUM(ref.mb_start), INT2NUM(ref.mb_start + mb_strlen),
+      |                              ~~~~~~~ ~~~~~~~~~~~~~^~~~~~~~~~~
+parser.c:459:19: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+  459 |       INT2NUM(ref.mb_start), INT2NUM(ref.mb_statokenizer.c:138:106: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+  138 |   rb_yield_values(3, token_type_to_symbol(trype), INT2NtUM(tk- + mb_strlen>),
+      |       ~~~~~~~ ~~~~^~~~~~~~
+scan.mb_cursor), INT2NUM(tk->scan.mb_cursor + mb_length));
+      |                                                                               ~~~~~~~ ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+tokenizer.c:138:67: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+  138 |   rb_yield_values(3, token_type_to_symbol(type), INT2NUM(tk->scan.mb_cursor), INT2NUM(tk->scan.mb_cursor + mb_length));
+      |                                                  ~~~~~~~ ~~~~~~~~~^~~~~~~~~
+parser.c:499:9: warning: unused variable 'old' [-Wunused-variable]
+  499 |   void *old = parser->doc.data;
+      |         ^~~
+tokenizer.c:467:9: warning: variable 'old' set but not used [-Wunused-but-set-variable]
+  467 |   void *old;
+      |         ^
+tokenizer.c:669:15: warning: unused variable 'old' [-Wunused-variable]
+  669 |   const char *old = tk->scan.string;
+      |               ^~~
+parser.c:722:26: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  722 |   return INT2NUM(parser->errors_count);
+      |          ~~~~~~~ ~~~~~~~~^~~~~~~~~~~~
+6 warnings generated.
+4 warnings generated.
+linking shared-object better_html_ext.bundle
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/better_html-2.2.0/ext/better_html_ext
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-41626-dajrk1 sitelibdir\=./.gem.20260612-41626-dajrk1 install
+/usr/bin/install -c -m 0755 better_html_ext.bundle ./.gem.20260612-41626-dajrk1
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/better_html-2.2.0/ext/better_html_ext
+make DESTDIR\= sitearchdir\=./.gem.20260612-41626-dajrk1 sitelibdir\=./.gem.20260612-41626-dajrk1 clean
