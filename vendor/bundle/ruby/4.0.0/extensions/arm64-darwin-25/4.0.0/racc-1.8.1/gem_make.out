@@ -1,0 +1,18 @@
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/apple/.rbenv/versions/4.0.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-34461-273jht sitelibdir\=./.gem.20260612-34461-273jht clean
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-34461-273jht sitelibdir\=./.gem.20260612-34461-273jht
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-34461-273jht sitelibdir\=./.gem.20260612-34461-273jht install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260612-34461-273jht/racc
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260612-34461-273jht sitelibdir\=./.gem.20260612-34461-273jht clean

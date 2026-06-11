@@ -1,0 +1,23 @@
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+/Users/apple/.rbenv/versions/4.0.3/bin/ruby extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for fstatat() in sys/stat.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-34461-i6vca7 sitelibdir\=./.gem.20260612-34461-i6vca7 clean
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-34461-i6vca7 sitelibdir\=./.gem.20260612-34461-i6vca7
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-34461-i6vca7 sitelibdir\=./.gem.20260612-34461-i6vca7 install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20260612-34461-i6vca7/bootsnap
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20260612-34461-i6vca7 sitelibdir\=./.gem.20260612-34461-i6vca7 clean

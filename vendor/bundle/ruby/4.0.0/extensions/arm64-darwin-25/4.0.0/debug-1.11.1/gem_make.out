@@ -1,0 +1,19 @@
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+/Users/apple/.rbenv/versions/4.0.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-34461-4mlk3e sitelibdir\=./.gem.20260612-34461-4mlk3e clean
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-34461-4mlk3e sitelibdir\=./.gem.20260612-34461-4mlk3e
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260612-34461-4mlk3e sitelibdir\=./.gem.20260612-34461-4mlk3e install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20260612-34461-4mlk3e/debug
+
+current directory: /Users/apple/work/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260612-34461-4mlk3e sitelibdir\=./.gem.20260612-34461-4mlk3e clean
